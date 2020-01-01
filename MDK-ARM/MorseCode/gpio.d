@@ -1,0 +1,30 @@
+morsecode\gpio.o: ../Src/gpio.c
+morsecode\gpio.o: ../Inc/gpio.h
+morsecode\gpio.o: ../Inc/main.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\gpio.o: ../Inc/stm32f1xx_hal_conf.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+morsecode\gpio.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+morsecode\gpio.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+morsecode\gpio.o: ../Drivers/CMSIS/Include/core_cm3.h
+morsecode\gpio.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+morsecode\gpio.o: ../Drivers/CMSIS/Include/cmsis_version.h
+morsecode\gpio.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+morsecode\gpio.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+morsecode\gpio.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\gpio.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+morsecode\gpio.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h

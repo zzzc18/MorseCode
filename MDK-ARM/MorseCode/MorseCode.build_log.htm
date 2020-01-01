@@ -1,0 +1,221 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jeffery Zhang, BIT, LIC=LJWMM-X8K2X-23RM4-FJQWS-1PV1I-BDZ5T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.28.0.0
+Toolchain Path:  G:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+V:\STM32\MorseCode\MDK-ARM\MorseCode.uvprojx
+Project File Date:  12/09/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'G:\Program Files\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MorseCode'
+assembling startup_stm32f103xb.s...
+compiling stm32f1xx_hal_msp.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/stm32f1xx_hal_msp.c: 1 warning, 0 errors
+compiling stm32f1xx_it.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/stm32f1xx_it.c(219): warning:  #223-D: function "My_UART_IRQHandler" declared implicitly
+      My_UART_IRQHandler();
+../Src/stm32f1xx_it.c: 2 warnings, 0 errors
+compiling usart.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/usart.c: 1 warning, 0 errors
+compiling gpio.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/gpio.c: 1 warning, 0 errors
+compiling tim.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/tim.c: 1 warning, 0 errors
+compiling sys.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/sys.c: 1 warning, 0 errors
+compiling main.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Src/main.c(70): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(tmp + offset, " Welcome to use this Morse Code project\n");
+../Src/main.c(73): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(tmp + offset, "Made By ZhangWP(zzzc18)\n");
+../Src/main.c(115): warning:  #223-D: function "Morse_init" declared implicitly
+      Morse_init();
+../Src/main.c: 4 warnings, 0 errors
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling feed_back.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Inc/feed_back.h(20): warning:  #1295-D: Deprecated declaration Error_Light - give arg types
+  void Error_Light();
+../Inc/feed_back.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\feed_back.c(28): warning:  #223-D: function "My_Delay" declared implicitly
+              My_Delay(5);
+..\Src\feed_back.c(43): warning:  #223-D: function "My_Delay" declared implicitly
+              My_Delay(5);
+..\Src\feed_back.c(51): warning:  #223-D: function "My_Delay" declared implicitly
+      My_Delay(500);
+..\Src\feed_back.c(57): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\feed_back.c: 7 warnings, 0 errors
+compiling queue.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Inc/queue.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\queue.c(17): warning:  #1-D: last line of file ends without a newline
+  uint8_t empty(queue *que) { return que->lpos == que->rpos; }
+..\Src\queue.c: 3 warnings, 0 errors
+compiling nvic.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Inc/nvic.h(6): warning:  #1295-D: Deprecated declaration My_UART_IRQHandler - give arg types
+  void My_UART_IRQHandler();
+../Inc/nvic.h(7): warning:  #1295-D: Deprecated declaration Rev_flush - give arg types
+  void Rev_flush();
+../Inc/nvic.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/feed_back.h(20): warning:  #1295-D: Deprecated declaration Error_Light - give arg types
+  void Error_Light();
+../Inc/feed_back.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/morse.h(9): warning:  #1295-D: Deprecated declaration Morse_init - give arg types
+  void Morse_init();
+../Inc/morse.h(10): warning:  #1295-D: Deprecated declaration Clear_BUF - give arg types
+  void Clear_BUF();
+../Inc/morse.h(12): warning:  #1295-D: Deprecated declaration convert_m2l - give arg types
+  uint8_t convert_m2l();
+../Inc/morse.h(14): warning:  #1295-D: Deprecated declaration flush - give arg types
+  void flush();
+../Inc/morse.h(16): warning:  #1295-D: Deprecated declaration Dot - give arg types
+  void Dot();
+../Inc/morse.h(17): warning:  #1295-D: Deprecated declaration Line - give arg types
+  void Line();
+../Inc/morse.h(18): warning:  #1295-D: Deprecated declaration Min_Blank - give arg types
+  void Min_Blank();
+../Inc/morse.h(19): warning:  #1295-D: Deprecated declaration Letter_Blank - give arg types
+  void Letter_Blank();
+../Inc/morse.h(20): warning:  #1295-D: Deprecated declaration Word_Blank - give arg types
+  void Word_Blank();
+../Inc/morse.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/queue.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\nvic.c(23): warning:  #223-D: function "My_Delay" declared implicitly
+          My_Delay(20);  // debouncing
+..\Src\nvic.c(98): warning:  #223-D: function "My_Delay" declared implicitly
+              My_Delay(2000);
+..\Src\nvic.c(101): warning:  #223-D: function "strlen" declared implicitly
+              int tmp_len = strlen(tmp);
+..\Src\nvic.c(106): warning:  #223-D: function "My_Delay" declared implicitly
+                      My_Delay(300);
+..\Src\nvic.c(112): warning:  #223-D: function "My_Delay" declared implicitly
+                      My_Delay(1000);
+..\Src\nvic.c(117): warning:  #223-D: function "My_Delay" declared implicitly
+              My_Delay(1000);
+..\Src\nvic.c(120): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+              sprintf(error_info, "Can't find %c in dictionary!", ch);
+..\Src\nvic.c(124): warning:  #223-D: function "My_Delay" declared implicitly
+              My_Delay(1000);
+..\Src\nvic.c(130): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\nvic.c: 26 warnings, 0 errors
+compiling morse.c...
+../Inc/main.h(57): warning:  #1295-D: Deprecated declaration Print_Help_Info - give arg types
+  void Print_Help_Info();
+../Inc/morse.h(9): warning:  #1295-D: Deprecated declaration Morse_init - give arg types
+  void Morse_init();
+../Inc/morse.h(10): warning:  #1295-D: Deprecated declaration Clear_BUF - give arg types
+  void Clear_BUF();
+../Inc/morse.h(12): warning:  #1295-D: Deprecated declaration convert_m2l - give arg types
+  uint8_t convert_m2l();
+../Inc/morse.h(14): warning:  #1295-D: Deprecated declaration flush - give arg types
+  void flush();
+../Inc/morse.h(16): warning:  #1295-D: Deprecated declaration Dot - give arg types
+  void Dot();
+../Inc/morse.h(17): warning:  #1295-D: Deprecated declaration Line - give arg types
+  void Line();
+../Inc/morse.h(18): warning:  #1295-D: Deprecated declaration Min_Blank - give arg types
+  void Min_Blank();
+../Inc/morse.h(19): warning:  #1295-D: Deprecated declaration Letter_Blank - give arg types
+  void Letter_Blank();
+../Inc/morse.h(20): warning:  #1295-D: Deprecated declaration Word_Blank - give arg types
+  void Word_Blank();
+../Inc/morse.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/feed_back.h(20): warning:  #1295-D: Deprecated declaration Error_Light - give arg types
+  void Error_Light();
+../Inc/feed_back.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/queue.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\morse.c(217): warning:  #1-D: last line of file ends without a newline
+  }
+..\Src\morse.c: 15 warnings, 0 errors
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_uart.c...
+compiling system_stm32f1xx.c...
+linking...
+Program Size: Code=8374 RO-data=294 RW-data=100 ZI-data=10932  
+FromELF: creating hex file...
+"MorseCode\MorseCode.axf" - 0 Error(s), 62 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.1.0.pack
+                Keil.STM32F1xx_DFP.1.1.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_MorseCode
+  C:\Users\ZWP\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\ZWP\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:14
+</pre>
+</body>
+</html>

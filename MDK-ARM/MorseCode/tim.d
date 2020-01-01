@@ -1,0 +1,30 @@
+morsecode\tim.o: ../Src/tim.c
+morsecode\tim.o: ../Inc/tim.h
+morsecode\tim.o: ../Inc/main.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\tim.o: ../Inc/stm32f1xx_hal_conf.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+morsecode\tim.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+morsecode\tim.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+morsecode\tim.o: ../Drivers/CMSIS/Include/core_cm3.h
+morsecode\tim.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+morsecode\tim.o: ../Drivers/CMSIS/Include/cmsis_version.h
+morsecode\tim.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+morsecode\tim.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+morsecode\tim.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\tim.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+morsecode\tim.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h

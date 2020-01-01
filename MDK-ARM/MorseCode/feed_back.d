@@ -1,0 +1,33 @@
+morsecode\feed_back.o: ..\Src\feed_back.c
+morsecode\feed_back.o: ../Inc/feed_back.h
+morsecode\feed_back.o: ../Inc/gpio.h
+morsecode\feed_back.o: ../Inc/main.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\feed_back.o: ../Inc/stm32f1xx_hal_conf.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Include/core_cm3.h
+morsecode\feed_back.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Include/cmsis_version.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+morsecode\feed_back.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+morsecode\feed_back.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+morsecode\feed_back.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+morsecode\feed_back.o: ../Inc/tim.h
+morsecode\feed_back.o: ../Inc/usart.h
